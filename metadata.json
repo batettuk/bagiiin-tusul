@@ -1,0 +1,6 @@
+{
+  "name": "Nara - Mongolian AI Assistant",
+  "description": "A dark-themed Mongolian voice assistant for navigation and information.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": []
+}

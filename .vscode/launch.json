@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js: Debug Next.js Client Side",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000"
+    },
+    {
+      "name": "Next.js: Debug Server Side",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/next/dist/bin/next",
+      "runtimeArgs": ["--inspect"],
+      "args": ["dev"],
+      "env": {
+        "NODE_OPTIONS": "--inspect"
+      }
+    }
+  ]
+}
